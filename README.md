@@ -27,7 +27,22 @@ Predict a subject’s **emotional state** (*happy / sad / neutral*, or binary la
 | MLP | *(to fill)* | *(to fill)* | Hidden layers, activations |
 | RBF | *(to fill)* | *(to fill)* | Gamma, centers |
 
-Feature selection reduced dimensionality by *(to fill)*% while maintaining comparable accuracy.
+📂 Repository Structure
+```text
+eeg-based-emotion-recognition/
+├── src/           # Notebooks & scripts
+│   ├── Hosh_Project_feature_extraction.ipynb
+│   ├── Hosh_Project_PSO.ipynb
+│   └── Hosh_Project_mlp_rbf.ipynb
+├── data/          # CSVs / selected feature tables (no raw EEG)
+│   ├── features_count.csv
+│   ├── fishersOfFeatures.csv
+│   └── selected_features.csv
+├── report/        # Project report (PDF)
+│   └── Hosh_Project_Report.pdf
+├── .gitignore
+└── README.md
+```
 
 ## 🧠 Tools
 Python • NumPy • pandas • scikit-learn • TensorFlow/Keras • SciPy • statsmodels • matplotlib
