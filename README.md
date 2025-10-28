@@ -48,15 +48,17 @@ eeg-based-emotion-recognition/
 1. Install dependencies:
    ```bash
    pip install numpy pandas scikit-learn scipy matplotlib statsmodels tensorflow
-Run notebooks in order:
-```
+  ```
+   
+2. Run notebooks in order:
+
 Hosh_Project_feature_extraction.ipynb
 
 Hosh_Project_PSO.ipynb
 
 Hosh_Project_mlp_rbf.ipynb
 
-Place CSVs in /data and report results.
+3. Place CSVs in /data and report results.
 
 ## 🧠 Tools
 Python • NumPy • pandas • scikit-learn • TensorFlow/Keras • SciPy • statsmodels • matplotlib
